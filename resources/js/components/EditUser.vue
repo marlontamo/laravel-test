@@ -75,7 +75,7 @@
                      'subscription': subscription,
                      };
                    
-                axios({url:`http://test.growmodo.com/marlontamo-laravel-test/public/api/user/`+id,
+                axios({url:`https://robinsonslandcorporation.site/laravel-test/public/api/user/`+id,
                     method:'post',
                     data: userdata
             }).then((res)=> 

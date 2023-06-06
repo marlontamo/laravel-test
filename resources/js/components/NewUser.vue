@@ -111,7 +111,7 @@ import axios from 'axios';
                 };
                 getToken();
                 axios({
-                    url: 'http://test.growmodo.com/marlontamo-laravel-test/public/api/user',
+                    url: 'https://robinsonslandcorporation.site/laravel-test/public/api/user',
                     method:'post',
                     data:userdata
                 })
@@ -119,7 +119,7 @@ import axios from 'axios';
                 // your action after success
                  console.log(response);
                  
-                 window.location.href='http://test.growmodo.com/marlontamo-laravel-test/public/pages/users';
+                 window.location.href='https://robinsonslandcorporation.site/laravel-test/public/pages/users';
                 })
                 .catch(function (error) {
                  // your action on error success

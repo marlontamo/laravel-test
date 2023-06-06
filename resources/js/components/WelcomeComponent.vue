@@ -6,7 +6,7 @@
                     <div class="card-header"><h1>Welcome {{data}}</h1></div>
 
                     <div class="card-body">
-                       your current userRole is<code>{{role}}</code>
+                       your current userRole is <code>{{role}}</code>
                     </div>
                 </div>
             </div>
